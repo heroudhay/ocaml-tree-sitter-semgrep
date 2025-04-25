@@ -389,7 +389,9 @@ namespace $N { };
   (namespace_declaration
     (identifier)
     (declaration_list))
-  (ellipsis))
+  (global_statement
+    (expression_statement
+    (ellipsis))))
 
 ================================================================================
 File scoped namespace declarations and ellipses
