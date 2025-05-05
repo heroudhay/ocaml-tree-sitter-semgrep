@@ -154,7 +154,7 @@ repo="semgrep-$lang"
 (
   cd "$export_dir"
   if [[ ! -d "$repo" ]]; then
-    git clone -b mpir/fix-verb-str-lits git@github.com:opengrep/"$repo".git
+    git clone -b opengrep/main git@github.com:opengrep/"$repo".git
   fi
 )
 
