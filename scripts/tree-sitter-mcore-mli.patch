@@ -1,0 +1,11 @@
+--- original	2025-03-05 21:01:54
++++ patched	2025-03-05 21:01:54
+@@ -24,7 +24,7 @@
+ val debug : bool ref
+ 
+ (** The original tree-sitter parser. *)
+-val ts_parser : Tree_sitter_bindings.Tree_sitter_API.ts_parser
++val ts_parser : Tree_sitter_bindings.Tree_sitter_API.ts_parser Domain.DLS.key
+ 
+ (** Parse a program into a tree-sitter CST. *)
+ val parse_source_string :
