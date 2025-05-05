@@ -404,9 +404,9 @@ namespace $N;
 --------------------------------------------------------------------------------
 
 (compilation_unit
-  (file_scoped_namespace_declaration
-    (global_statement
+  (global_statement
       (expression_statement
         (ellipsis)))
+  (file_scoped_namespace_declaration
     (identifier)
     (ellipsis)))
